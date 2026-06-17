@@ -55,6 +55,37 @@ else if(age<=13){
 else{
     printf("adult");
 }
-   
+	
+//TERNARY CONDITIONING
+
+int age;
+printf("type your age: ");
+scanf("%d",&age);
+
+age>=18? printf("adult"):printf("not adult");
+
+//SWITCH() FUNCTION 
+
+int day_no;
+printf("type the day no: ");
+scanf("%d",&day_no);
+switch(day_no){
+  case 1 : printf("Monday \n");
+    break;
+  case 2 : printf("tuesday \n");
+    break;
+  case 3 : printf("wednesday \n");
+    break;
+  case 4 : printf("thursday \n");
+    break;
+  case 5 : printf("friday \n");
+    break;
+  case 6 : printf("satday \n");
+    break; 
+  case 7 : printf("sunday \n");
+    break;   
+
+  default : printf("not a valid day! \n");
+} 
     return 0;
 }
