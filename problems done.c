@@ -30,12 +30,26 @@ int num;
 printf("type in your number: ");
 scanf("%d",&num);
 if(num%2==0){
-    printf("number is div by 2");
+    printf("number is div by 2 \n");
 }
 else{
-    printf("number is not div by 2");
+    printf("number is not div by 2 \n");
 }
+    
+//P5.PROGRAM TO SHOW PASSED/FAILED BASED OF MARKS SCORED
 
+ float marks;
+printf("marks obtained: ");
+scanf("%f",&marks);
+if(marks>30&&marks<=100){
+    printf("passed \n");
+}
+else if(marks>0&&marks<=30){
+    printf("failed \n");
+}
+else{
+printf("wrong marks \n");
+}   
     
     return 0;
 }
