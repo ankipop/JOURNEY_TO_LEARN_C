@@ -50,6 +50,24 @@ else if(marks>0&&marks<=30){
 else{
 printf("wrong marks \n");
 }   
+
+//P6.PROGRAM TO CLASSIFY USERS AGE TO BASED CATEGORIES   
+int age;
+printf("type your age: ");
+scanf("%d",&age);
+
+if(age>13 && age<20){
+	printf("teenager");
+}
+
+else if(age<=13){
+	printf("child \n");
+}
+else{
+    printf("adult \n");
+}
+
+
     
     return 0;
 }
