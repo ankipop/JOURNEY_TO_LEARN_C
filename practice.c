@@ -96,6 +96,12 @@ printf("no of times u wanna print hello world: ");
 scanf("%d",&d);
 for(int i=1;i<=d;i=i+1){
   printf("hello world! \n");
-}	
+}
+
+// INCREMENT OPERATOR i++ and ++i
+int d=1;
+printf("%d \n", d);
+printf("%d \n",d++);//USE THEN INCREASE 
+printf("%d \n",++d);//INCREASE THEN USE	
     return 0;
 }
