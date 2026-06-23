@@ -101,7 +101,15 @@ for(int i=1;i<=d;i=i+1){
 // INCREMENT OPERATOR i++ and ++i
 int d=1;
 printf("%d \n", d);
-printf("%d \n",d++);//USE THEN INCREASE 
-printf("%d \n",++d);//INCREASE THEN USE	
-    return 0;
+printf("%d \n",d++);//USE THEN INCREASE (POST INCREMENT)
+printf("%d \n",++d);//INCREASE THEN USE	(PRE INCREMENT)
+    
+
+//DECREMENT OPERATOR i-- and --i
+int d=5;
+printf("%d \n", d);
+printf("%d \n",d--);//USE THEN DECREASE (POST DECREMENT)
+printf("%d \n",--d);//DECREASE THEN USE (PRE DECREMENT)
+	
+	return 0
 }
