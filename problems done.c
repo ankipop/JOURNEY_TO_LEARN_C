@@ -118,6 +118,16 @@ scanf("%d",&d);
 for(int i=1;i<=d;i=i+1){
   printf("hello world! \n");
 }
-	
+
+//P11.PRINT NUMBERS FROM 0 TO N USING WHILE
+
+int n;
+printf("how many numbers: ");
+scanf("%d",&n);
+int i=0;
+while(i<=n){
+  printf("%d \n", i);
+  i=i+1;
+}	
     return 0;
 }
