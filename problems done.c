@@ -198,5 +198,19 @@ do{
   i++;
 }while(i<=10);
 	
+//P15.KEEP TAKING INPUTS FROM USER UP UNTIL THEY TYPE IN A ODD NUM
+
+//IN FOR
+
+int n;
+for( ;n%2==0; ){
+  printf("type a number: ");
+  scanf("%d",&n);                 
+  printf("%d \n", n);
+    if(n%2 != 0){
+      break;
+    }
+}
+printf("THANK YOU");
     return 0;
 }
