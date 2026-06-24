@@ -25,7 +25,7 @@ int main()
    printf("string is %s \n" ,name);
    printf("for one letter or character is %c \n" ,name_oneletter);
  
-//3.TO TAKE INPUT WE USE SCANF FUNCTION
+//TO TAKE INPUT WE USE SCANF FUNCTION
 
     int a,b;
     printf("enter a: ");
@@ -140,6 +140,18 @@ do{
   printf("%d \n", n);
   n--;
 }while(n>=1);
-	
+
+//BREAK STATEMENT 
+
+int n;
+for( ;n%2==0; ){
+  printf("type a number: ");
+  scanf("%d",&n);                 
+  printf("%d \n", n);
+    if(n%2 != 0){
+      break;              //TAKES U OUT OF THE LOOP
+    }
+}
+printf("THANK YOU");
 	return 0
 }
