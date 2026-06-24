@@ -143,5 +143,22 @@ while(i <= d){
   printf("%c \n",ch);
   i++;
 }	
+
+//P14.WRITE A CODE TO PRINT NUMBERS TILL USER WANTS AND IN REVERSE TOO
+
+int n;
+printf("how many numbers: ");
+scanf("%d",&n);
+int i=1;
+do{
+  printf("%d \n", i);
+  i++;
+}while(i<=n);
+printf("AND IN REVERSE \n");
+do{
+  printf("%d \n", n);
+  n--;
+}while(n>=1);
+	
     return 0;
 }
