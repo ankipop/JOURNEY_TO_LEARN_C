@@ -302,8 +302,18 @@ while(i<=e){
     continue;
   }
   printf("%d \n", i);
-}	
+}
+	
+//IN DO WHILE
 
+int i=s-1;
+do{
+  i++;
+  if(i%2!=0){
+    continue;
+  }
+  printf("%d \n", i);
+}while(i<=e);
 
 	
     return 0;
