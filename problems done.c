@@ -343,6 +343,7 @@ do{
   i++;
 }while(i<=n);
 printf("%d \n", p);
+	
 //19.PRINT THE REVERSE OF A TABLE FOR N
 
 int n;
@@ -355,7 +356,15 @@ for(int i=10;i>=1;i--){
   printf("x %d=", i);
   printf("%d \n", i*n);
 }
-
+	
+//IN WHILE
+int i=10;
+while(i>=1){
+  printf("%d ", n);
+  printf("x %d=", i);
+  printf("%d \n", i*n);
+  i--;
+}
 	
     return 0;
 }
