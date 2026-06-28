@@ -336,6 +336,14 @@ while(i<=n){
 }
 printf("%d \n", p);	
 
+//IN DO WHILE
+int i=1;
+do{
+  p=p*i;
+  i++;
+}while(i<=n);
+printf("%d \n", p);
+
 
 	
     return 0;
