@@ -365,6 +365,32 @@ while(i>=1){
   printf("%d \n", i*n);
   i--;
 }
+//P19.WRITE A PROGRAM TO CHECK IF A NUMBER IS ARMSTRONG NUMBER OR NOT
+int n;
+printf("Type your number: ");
+scanf("%d", &n);
+int digits = 0;
+int k=n;
+int l=n;
+while(l != 0){
+    digits += 1;
+    l = l / 10;
+    }
+printf("no of digits is %d\n", digits);
+int sumOFpowers=0;
+int r;
+while(k != 0){
+    r=k%10;
+    sumOFpowers += pow(r,digits);
+    k=k /10;
+    }
+ printf("%d \n", sumOFpowers);
+if(n== sumOFpowers){
+    printf("yes! armstrong number");
+    }
+else{
+    printf("no!not a armstrong number");
+}	
 	
     return 0;
 }
