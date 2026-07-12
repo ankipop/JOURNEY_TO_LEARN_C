@@ -10,9 +10,33 @@ int sum(int a,int b);
 
 int main()
 {
+//FUNCTIONS CREATING
 
+printhello();
+printgoodbye();
 
+//1.PRINT A FUNCTION THAT PRINTS NAMASTE/BONJUR BASED ON USERS NATIONALITY 
 
+char n;
+printf("what is your n: ");
+scanf("%c", &n);
+if(n=='i'){
+  namaste();}
+else if(n=='f'){
+  bonjur();}
+else{
+  printf("thanks");}
+ 
+//2.FUNCTION TO RETURN SUM OF  TWO NUMBERS
+int a;
+int b;
+printf("type your 1 number: ");
+scanf("%d", &a);
+ printf("type your 2 number: ");
+scanf("%d", &b); 
+int c,d;
+c=sum(a,b);
+printf("%d \n",c);
   
 return 0;
 }
