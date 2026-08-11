@@ -403,7 +403,7 @@ int p=paisa%100;
 int r=paisa/100;
 printf("Inputed Paisa-%d, rupee-%d and %d paise", paisa,r,p);
 
-//WAP TO FIND FAHRENHEIT FOR A GIVEN CELCIUS TEMPERATURE 
+//22.WAP TO FIND FAHRENHEIT FOR A GIVEN CELCIUS TEMPERATURE 
 
 int c;
 printf("enter your temp in centigrade scale value: ");
@@ -411,6 +411,17 @@ scanf("%d", &c);
 int f=((c*(9/5))+32);
 printf("temp in fahrenite scale is %d \n",f);	
 
+	
+//23.WAP to calculate the area of a triangle who’s base and height are user inp
+
+int base=0;
+int height=0;
+printf("enter base:");
+scanf("%d",&base);
+printf("enter height:");
+scanf("%d",&height);
+int area=(base*height)/2;
+printf("area of triangle: %d \n",aгea);
 	
     return 0;
 }
