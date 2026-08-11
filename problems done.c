@@ -393,6 +393,16 @@ if(n== sumOFpowers){
 else{
     printf("no!not a armstrong number");
 }	
+
+//21.WAP to convert given paisa into its equivalent rupee and paisa	
+	
+int paisa;
+printf("enter your amount in paisa:");
+scanf("%d",&paisa);
+int p=paisa%100;
+int r=paisa/100;
+printf("Inputed Paisa-%d, rupee-%d and %d paise", paisa,r,p);
+
 	
     return 0;
 }
