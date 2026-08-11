@@ -403,6 +403,14 @@ int p=paisa%100;
 int r=paisa/100;
 printf("Inputed Paisa-%d, rupee-%d and %d paise", paisa,r,p);
 
+//WAP TO FIND FAHRENHEIT FOR A GIVEN CELCIUS TEMPERATURE 
+
+int c;
+printf("enter your temp in centigrade scale value: ");
+scanf("%d", &c);
+int f=((c*(9/5))+32);
+printf("temp in fahrenite scale is %d \n",f);	
+
 	
     return 0;
 }
