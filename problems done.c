@@ -422,6 +422,34 @@ printf("enter height:");
 scanf("%d",&height);
 int area=(base*height)/2;
 printf("area of triangle: %d \n",aгea);
+
+//WAP TO INPUT LENGTH AND BREADTH FROM USER AND PERFORM FUNCTIONS
+
+int l;
+printf("enter the length of rect:");
+scanf("%d", &l);
+int b;
+printf("enter the breadth of rect:");
+scanf("%d", &b);
+	
+//1.ratio function
+if (l>b){
+if (l%b==0){
+int r=l/b;
+printf("the ratio is %d: 1",г);
+}
+else{
+printf("the ratio is %d %d",l,b);
+}
+}
+if (b>l){
+if (b%l==0){
+int r=b/l;
+}
+printf("the ratio is 1: %d",r); printf("the ratio is %d %d",l,b);
+else{
+}
+}	
 	
     return 0;
 }
