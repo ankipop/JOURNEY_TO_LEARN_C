@@ -463,6 +463,24 @@ printf("the area is:%d \n", a);
 
 //4.ratio of p and a
 
+if(p>a){
+ if(p%a==0){
+  int r=p/a;
+  printf("the ratio is %d:1", г);
+  }
+ else{
+  printf("the ratio is %d %d",p,a);
+ }
+}  
+  
+if(p<a){
+ if(a%p==0){
+  int r=a/p;
+  printf("the ratio is 1:%d",r);
+ else{
+  printf("the ratio is %d %d \n",p,a);
+  }
+}	
 	
     return 0;
 }
