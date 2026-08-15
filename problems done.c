@@ -434,22 +434,35 @@ scanf("%d", &b);
 	
 //1.ratio function
 if (l>b){
-if (l%b==0){
-int r=l/b;
-printf("the ratio is %d: 1",г);
-}
-else{
-printf("the ratio is %d %d",l,b);
-}
+ if (l%b==0){
+  int r=l/b;
+  printf("the ratio is %d: 1",г);
+ }
+ else{
+ printf("the ratio is %d %d",l,b);
+ }
 }
 if (b>l){
-if (b%l==0){
-int r=b/l;
-}
-printf("the ratio is 1: %d",r); printf("the ratio is %d %d",l,b);
-else{
-}
+ if (b%l==0){
+ int r=b/l;
+ printf("the ratio is 1: %d",r); printf("the ratio is %d %d",l,b);
+ }	 
+ else{
+ }
 }	
+
+//2.perimeter
+
+int p=2*(l+b);
+printf("the perimeter is: %d \n",p);
+
+//3.area
+
+int a=l*b;
+printf("the area is:%d \n", a);
+
+//4.ratio of p and a
+
 	
     return 0;
 }
